@@ -2,6 +2,7 @@
 
 > Built by **[Artur Ferreira](https://github.com/arturseo-geo)** @ **The GEO Lab** · [𝕏 @TheGEO_Lab](https://x.com/TheGEO_Lab) · [LinkedIn](https://linkedin.com/in/arturgeo) · [Reddit](https://www.reddit.com/user/Alternative_Teach_74/)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19450361.svg)](https://doi.org/10.5281/zenodo.19450361)
 ![Status](https://img.shields.io/badge/status-complete-blue)
 ![Licence](https://img.shields.io/badge/licence-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Perplexity_sonar--pro-blueviolet)
@@ -11,6 +12,8 @@
 **Domain authority gates citation eligibility. Entity density operates within that gate.**
 
 A 52-query experiment testing whether named entity density correlates with AI citation rates. Result: null — but the null is the finding. The domain (thegeolab.net) achieves 20% citation rate on proprietary concept queries and 0% on all 22 competition queries where established publishers compete. Entity density cannot overcome a domain authority gap. The effect, if it exists, operates within an authority tier.
+
+**Paper:** [Zenodo preprint (DOI: 10.5281/zenodo.19450361)](https://doi.org/10.5281/zenodo.19450361)
 
 ---
 
@@ -34,7 +37,7 @@ When Perplexity has to choose between thegeolab.net and established publishers (
 | [`docs/experiment-design.md`](./docs/experiment-design.md) | Full methodology: page selection, NER protocol, statistical approach |
 | [`docs/competition-query-design.md`](./docs/competition-query-design.md) | 22 competition queries with pre-registered plausible-answer mapping |
 | [`docs/analysis-report.md`](./docs/analysis-report.md) | Complete analysis: findings, interpretation, revised hypothesis |
-| [`preprint/preprint-draft.md`](./preprint/preprint-draft.md) | Preprint manuscript (~3,800 words) — ready for arXiv cs.IR |
+| [`preprint/preprint-draft.md`](./preprint/preprint-draft.md) | Preprint abstract + DOI link to Zenodo full paper |
 
 ---
 
@@ -161,18 +164,22 @@ The experimental domain (thegeolab.net) is owned and operated by the author. The
 
 ## Citation
 
-If you use this methodology or data in your research:
-
-```
-Ferreira, A. (2026). Domain Authority Gates Citation Eligibility: Entity Density
-as a Within-Domain Signal in AI Search. The GEO Lab.
-https://github.com/arturseo-geo/entity-density-citation-experiment
+```bibtex
+@misc{ferreira2026entitydensity,
+  author       = {Ferreira, Artur},
+  title        = {Domain Authority Gates Citation Eligibility: Entity Density as a Within-Domain Signal in AI Search},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.19450361},
+  url          = {https://doi.org/10.5281/zenodo.19450361}
+}
 ```
 
 ---
 
 ## Related
 
+- [Full paper on Zenodo](https://doi.org/10.5281/zenodo.19450361) — preprint with complete methodology and discussion
 - [LLM Knowledge Base schema](https://github.com/arturseo-geo/llm-knowledge-base) — the wiki system this experiment was run within
 - [Princeton GEO paper](https://arxiv.org/abs/2311.09735) — Aggarwal et al., KDD 2024
 - [GEO-SFE](https://arxiv.org/html/2603.29979) — Yu et al., 2026 — structural features in GEO
